@@ -1,5 +1,6 @@
 body, html {
-  height: 100%
+  margin: 0;
+  height: 100%;
 }
 
 .bgimg {
@@ -25,7 +26,13 @@ body, html {
 /* Position text in the top-left corner */
 .topleft {
   position: absolute;
-  top: 0;
+  margin: 16px;
+  width: 150px;
+  height: 100px;
+  border:10px;
+  background-image: url('../public/JuanLogo.png');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /* Position text in the bottom-left corner */
