@@ -39,8 +39,9 @@ module.exports = {
   },
   output: {
         path: path.resolve(__dirname, '..', './build'),
-        filename: '[name].[chunkhash].js',
-        publicPath: '/'
+        filename: '[name].[chunkhash].bundle.js',
+        publicPath: '/',
+        clean: true,
   },
   devServer: {
     historyApiFallback: true,
