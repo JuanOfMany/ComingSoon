@@ -18,9 +18,8 @@ body, html {
   /* Add a white text color to all elements inside the .bgimg container */
   color: white;
   /* Add a font */
-  font-family: "Courier New", Courier, monospace;
   /* Set the font-size to 25 pixels */
-  font-size: 25px;
+  font-size: 35px;
 }
 
 /* Position text in the top-left corner */
@@ -40,6 +39,7 @@ body, html {
   position: absolute;
   bottom: 0;
   left: 16px;
+  font-size:large;
 }
 
 /* Position text in the middle */
